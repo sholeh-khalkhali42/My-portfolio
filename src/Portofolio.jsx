@@ -9,7 +9,7 @@ export default function Portfolio() {
     en: {
       title: "Sholeh Khalkhali Resume and Projects",
       subtitle1: "Detail-oriented Front-End Developer with a strong background in React, Redux",
-      subtitle2: "With a keen eye for design and functionality.",
+      subtitle2: "The results speak for themselves — just take a look",
       download: "Download Resume",
       skills: "Skills",
       projects: "Projects",
@@ -20,7 +20,7 @@ export default function Portfolio() {
     de: {
       title: "Sholeh Khalkhali Lebenslauf und Projekte",
       subtitle1: "Detailorientierte Front-End-Entwicklerin mit fundierten Kenntnissen in React und Redux",
-      subtitle2: "Mit einem ausgeprägten Gespür für Design und Funktionalität.",
+      subtitle2: "Die Ergebnisse sprechen für sich – sehen Sie selbst",
       download: "Lebenslauf herunterladen",
       skills: "Fähigkeiten",
       projects: "Projekte",
@@ -34,20 +34,20 @@ export default function Portfolio() {
     {
       title: "E-commerce Website",
       description: {
-        en: "A simple shopping cart system using Vite, demonstrating add/remove/display total prices.",
-        de: "Ein einfaches Warenkorbsystem mit Vite, das das Hinzufügen/Entfernen/Anzeigen der Gesamtpreise demonstriert."
+        en: "MY-SHOP A modern e-commerce React application with user authentication, product browsing, cart management, and order processing.",
+        de: "MY-SHOP – Eine moderne E-Commerce-Anwendung mit React, die Benutzer­authentifizierung, Produkt­durchsuchung, Warenkorb­verwaltung und Bestell­abwicklung ermöglicht.",
       },
-      liveLink: "https://#",
-      githubLink: "https://github.com/sholeh-khalkhali42/Shopping-Cart"
+        liveLink: "https://sholeh-shop.netlify.app/",
+      githubLink: "https://github.com/sholeh-khalkhali42/MY-SHOP"
     },
     {
-      title: "Blog with React & Redux Toolkit",
+      title: "Admin Panel",
       description: {
-        en: "Blog app with React, Redux Toolkit, and Tailwind CSS for managing blog posts.",
-        de: "Blog-Anwendung mit React, Redux Toolkit und Tailwind CSS zur Verwaltung von Blog-Beiträgen."
+        en: "A modern, responsive admin dashboard built with React, Redux Toolkit, React Router, and Bootstrap. The project includes full JWT authentication and CRUD operations products.",
+        de: "Ein modernes, responsives Admin-Dashboard, entwickelt mit React, Redux Toolkit, React Router und Bootstrap. Das Projekt umfasst vollständige JWT-Authentifizierung und CRUD-Operationen für Produkte.Blog-Anwendung mit React, Redux Toolkit und Tailwind CSS zur Verwaltung von Blog-Beiträgen."
       },
-      liveLink: "https://#",
-      githubLink: "https://github.com/sholeh-khalkhali42/Blog-with-React-Redux-toolkit"
+      liveLink: "https://sholeh-admin-dashboard.netlify.app/",
+      githubLink: "https://github.com/sholeh-khalkhali42/ADMIN--DASHBOARD"
     },
     {
       title: "Real-time Cryptocurrency Data",
@@ -55,7 +55,7 @@ export default function Portfolio() {
         en: "Cryptocurrency dashboard using CoinRanking API with charts and news.",
         de: "Kryptowährungs-Dashboard mit CoinRanking API, Diagrammen und Nachrichten."
       },
-      liveLink: "https://crypto-dashboard-sholeh.netlify.app/",
+      liveLink: "https://sholehprojectcryptocurrency.netlify.app/",
       githubLink: "https://github.com/sholeh-khalkhali42/cryptocurrency"
     }
   ];

@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-my-pwa-app/node_modules
 /.pnp
 .pnp.js
 
