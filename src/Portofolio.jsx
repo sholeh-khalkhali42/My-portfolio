@@ -10,7 +10,7 @@ export default function Portfolio() {
       title: "Sholeh Khalkhali Resume and Projects",
       subtitle1: "Detail-oriented Front-End Developer with a strong background in React, Redux",
       subtitle2: "The results speak for themselves — just take a look",
-      download: "Download Resume",
+      download: " Resume",
       skills: "Skills",
       projects: "Projects",
       liveDemo: "Live Demo",
@@ -21,7 +21,7 @@ export default function Portfolio() {
       title: "Sholeh Khalkhali Lebenslauf und Projekte",
       subtitle1: "Detailorientierte Front-End-Entwicklerin mit fundierten Kenntnissen in React und Redux",
       subtitle2: "Die Ergebnisse sprechen für sich – sehen Sie selbst",
-      download: "Lebenslauf herunterladen",
+      download: "Lebenslauf ",
       skills: "Fähigkeiten",
       projects: "Projekte",
       liveDemo: "Live-Demo",
@@ -81,7 +81,7 @@ export default function Portfolio() {
         <h1 className="display-4 fw-bold mb-3 text-primary">{t.title}</h1>
         <p className="lead text-muted">{t.subtitle1}</p>
         <p className="lead text-muted">{t.subtitle2}</p>
-        <a href="https://github.com/sholeh-khalkhali42/My-Resume/raw/main/Sholeh_Khalkhali_CV_ATS.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-warning mt-3 text-dark">{t.download}</a>
+        <a href="https://docs.google.com/document/d/1l9NOO21ytKz0L2rPURi2_havOBD6NqmNKUOg8uD3gOk/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn btn-warning mt-3 text-dark">{t.download}</a>
         <div className="mt-4 d-flex justify-content-center gap-3">
           {socialLinks.map((item, idx) => (
             <button key={idx} className="btn btn-outline-primary d-flex align-items-center gap-2" onClick={() => window.open(item.link, "_blank")}>
