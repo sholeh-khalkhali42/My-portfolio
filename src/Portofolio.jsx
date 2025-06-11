@@ -60,7 +60,7 @@ export default function Portfolio() {
     }
   ];
 
-  const skills = ["React.js", "Bootstrap", "Tailwind CSS", "Redux", "SEO", "Redux Toolkit", "Next.js", "Git & GitHub", "REST API", "Figma"];
+  const skills = ["React.js", "Bootstrap", "Tailwind CSS", "Redux", "SEO", "Redux Toolkit", "Next.js", "Git & GitHub", "REST API", "Figma","GitHub Actions (CI/CD)"];
 
   const socialLinks = [
     { icon: <Github size={20} />, label: "GitHub", link: "https://github.com/sholeh-khalkhali42" },
