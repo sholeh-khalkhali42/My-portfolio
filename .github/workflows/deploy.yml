@@ -1,31 +1,34 @@
-name: Deploy CRA to GitHub Pages
+name: Deploy to Vercel
 
 on:
   push:
     branches:
-      - main  # change if your main branch is different
+      - main  # شاخه‌ای که میخوای روی اون دیپلوی بشه
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20.11.1
+          node-version: 18
 
       - name: Install dependencies
         run: npm install
 
-      - name: Build the app
+      - name: Build project
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v20
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'  # برای دیپلوی به محیط production
+          working-directory: '.'  # مسیر پروژه (در صورتیکه در ریشه است)
