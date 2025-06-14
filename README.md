@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# My Portfolio  
+🧑‍💻 Multilingual Developer Portfolio with PWA support  
+🌍 Mehrsprachiges Entwickler-Portfolio mit PWA-Unterstützung
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 📌 Table of Contents | Inhaltsverzeichnis
 
-In the project directory, you can run:
+1. [About the Project | Über das Projekt](#about-the-project--über-das-projekt)  
+2. [Features | Funktionen](#features--funktionen)  
+3. [Tech Stack](#tech-stack)  
+4. [Installation](#installation)  
+5. [Usage | Nutzung](#usage--nutzung)  
+6. [Build & Deployment](#build--deployment)  
+7. [Screenshots](#screenshots)  
+8. [License | Lizenz](#license--lizenz)  
+9. [Contact | Kontakt](#contact--kontakt)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🧩 About the Project | Über das Projekt
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**EN:**  
+This is a personal portfolio web app built with React. It showcases my projects, skills, and includes a contact section. The app supports English and German, and is installable as a Progressive Web App (PWA) for offline access.
 
-### `npm test`
+**DE:**  
+Dies ist eine persönliche Portfolio-Webanwendung, entwickelt mit React. Sie präsentiert meine Projekte, Fähigkeiten und enthält eine Kontaktsektion. Die App unterstützt Englisch und Deutsch und ist als Progressive Web App (PWA) installierbar.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Features | Funktionen
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🌐 **Multilingual support** – English & German  
+- 📱 **Responsive design** – works on all devices  
+- ⚡ **Progressive Web App (PWA)** – installable & offline-capable  
+- 🎨 Clean UI and project showcase  
+- 📩 Contact form section  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💡 Tech Stack
 
-### `npm run eject`
+- React (Create React App)  
+- react-i18next (for localization)  
+- CSS / Styled Components  
+- HTML5  
+- Service Worker / PWA integration (via CRA)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/sholeh-khalkhali42/My-portfolio.git
+cd My-portfolio
+npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+▶️ Usage | Nutzung
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Start the app locally:
 
-### Code Splitting
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Then visit http://localhost:3000
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+🚀 Build & Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Create a production build:
 
-### Advanced Configuration
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Deploy the /build folder to any static host (e.g. GitHub Pages, Netlify, Vercel).
 
-### Deployment
+PWA note: Hosting must support HTTPS for offline capabilities.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📸 Screenshots
+
+You can add screenshots of both language versions here:
+
+![English View](./screenshots/en-home.png)
+![German View](./screenshots/de-home.png)
+
+
+---
+
+📄 License | Lizenz
+
+MIT License. See LICENSE file for more details.
+MIT-Lizenz. Siehe die Datei LICENSE für weitere Informationen.
+
+
+---
+
+📬 Contact | Kontakt
+
+Sholeh Khalkhali
+GitHub: @sholeh-khalkhali42
+Email: sholehkhalkhali100@gmail.com
+
+
+---
+
+EN: Thank you for checking out my portfolio!
+DE: Vielen Dank für Ihren Besuch auf meinem Portfolio!
