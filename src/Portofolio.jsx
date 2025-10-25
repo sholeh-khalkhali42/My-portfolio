@@ -37,7 +37,7 @@ export default function Portfolio() {
         en: "MY-SHOP A modern e-commerce React application with user authentication, product browsing, cart management, and order processing.",
         de: "MY-SHOP – Eine moderne E-Commerce-Anwendung mit React, die Benutzer­authentifizierung, Produkt­durchsuchung, Warenkorb­verwaltung und Bestell­abwicklung ermöglicht.",
       },
-        liveLink: "https://sholeh-shop.netlify.app/",
+        liveLink: "https://my-shop-black.vercel.app/",
       githubLink: "https://github.com/sholeh-khalkhali42/MY-SHOP"
     },
     {
@@ -126,3 +126,4 @@ export default function Portfolio() {
     </div>
   );
 }
+
